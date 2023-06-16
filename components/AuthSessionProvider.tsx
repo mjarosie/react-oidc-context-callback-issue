@@ -13,6 +13,7 @@ const oidcConfig: AuthProviderProps = {
   client_id: "...",
   redirect_uri: "http://localhost:3000",
   onSigninCallback: (user: User | void): void => {
+    console.log("TEST");
     window.history.replaceState({}, document.title, window.location.pathname);
   },
 };

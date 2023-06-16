@@ -1,4 +1,5 @@
-import AuthSessionProvider from "@/components/AuthSessionProvider";
+import React from "react";
+import AuthSessionProvider from "../components/AuthSessionProvider";
 import "./globals.css";
 import { Inter } from "next/font/google";
 

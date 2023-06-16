@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { useAuth } from "react-oidc-context";
 
 export default function Home() {
